@@ -1,0 +1,68 @@
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: Rentable
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: Reportable
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: Bicycle
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: Skis
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: TennisRacket
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: Rental
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: RentalProcess
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: OnlineRentalProcess
+2025-04-23 19:02:55 - equipment_system - DEBUG - Зарегистрирован класс оборудования: OfflineRentalProcess
+2025-04-23 19:02:55 - equipment_system - INFO - Создание оборудования типа bicycle
+2025-04-23 19:02:55 - equipment_system - INFO - Создан инвентарь: some_bicycle (ID: 1)
+2025-04-23 19:02:55 - equipment_system - INFO - Уведомление: Инвентарь some_bicycle готов к выдаче
+2025-04-23 19:02:55 - equipment_system - INFO - Создан велосипед: some_bicycle (Тип: Mountain)
+2025-04-23 19:02:55 - equipment_system - INFO - Создание оборудования типа skis
+2025-04-23 19:02:55 - equipment_system - INFO - Создан инвентарь: some_ski (ID: 1)
+2025-04-23 19:02:55 - equipment_system - INFO - Уведомление: Инвентарь some_ski готов к выдаче
+2025-04-23 19:02:55 - equipment_system - INFO - Созданы лыжи: some_ski (Длина: 170)
+2025-04-23 19:02:55 - equipment_system - INFO - Создание оборудования типа tennisracket
+2025-04-23 19:02:55 - equipment_system - INFO - Создан инвентарь: some_racket (ID: 1)
+2025-04-23 19:02:55 - equipment_system - INFO - Уведомление: Инвентарь some_racket готов к выдаче
+2025-04-23 19:02:55 - equipment_system - INFO - Создана теннисная ракетка: some_racket (Натяжение: 1.2)
+2025-04-23 19:02:55 - equipment_system - INFO - Создан клиент: Boris (ID: 1)
+2025-04-23 19:02:55 - equipment_system - INFO - Создана аренда: 1 для клиента Boris
+2025-04-23 19:02:56 - equipment_system - INFO - Создан клиент: Ramzan (ID: 2)
+2025-04-23 19:02:56 - equipment_system - INFO - Создана аренда: 2 для клиента Ramzan
+2025-04-23 19:02:56 - equipment_system - INFO - Создан клиент: Artem (ID: 3)
+2025-04-23 19:02:56 - equipment_system - INFO - Создана аренда: 3 для клиента Artem
+2025-04-23 19:02:56 - equipment_system - INFO - some Action
+2025-04-23 19:02:56 - equipment_system - INFO - Уведомление: Some note
+2025-04-23 19:02:56 - equipment_system - INFO - Начало онлайн процесса аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Онлайн проверка доступности оборудования
+2025-04-23 19:02:56 - equipment_system - DEBUG - Подсчет базовой стоимости онлайн
+2025-04-23 19:02:56 - equipment_system - INFO - Инвентарь some_bicycle арендован клиентом Boris
+2025-04-23 19:02:56 - equipment_system - INFO - Инвентарь some_bicycle арендован
+2025-04-23 19:02:56 - equipment_system - DEBUG - Изменение статуса доступности с True на False
+2025-04-23 19:02:56 - equipment_system - INFO - Создана аренда: rent_1 для клиента Boris
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет стоимости аренды велосипеда на 6.0 часов
+2025-04-23 19:02:56 - equipment_system - DEBUG - Общая стоимость аренды: 602.0
+2025-04-23 19:02:56 - equipment_system - DEBUG - Согласование цены с персоналом онлайн
+2025-04-23 19:02:56 - equipment_system - INFO - Утверждение стоимости аренды: 602.0
+2025-04-23 19:02:56 - equipment_system - INFO - Генерация отчета по аренде rent_1
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Создан запрос типа easy на сумму 150
+2025-04-23 19:02:56 - equipment_system - INFO - Начало оффлайн процесса аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Оффлайн проверка доступности оборудования
+2025-04-23 19:02:56 - equipment_system - DEBUG - Подсчет базовой стоимости оффлайн
+2025-04-23 19:02:56 - equipment_system - INFO - Инвентарь some_ski арендован клиентом Ramzan
+2025-04-23 19:02:56 - equipment_system - INFO - Инвентарь some_ski арендован
+2025-04-23 19:02:56 - equipment_system - DEBUG - Изменение статуса доступности с True на False
+2025-04-23 19:02:56 - equipment_system - INFO - Создана аренда: rent_1 для клиента Ramzan
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет стоимости аренды лыж на 6.0 часов
+2025-04-23 19:02:56 - equipment_system - DEBUG - Общая стоимость аренды: 540.0
+2025-04-23 19:02:56 - equipment_system - DEBUG - Согласование цены с персоналом оффлайн
+2025-04-23 19:02:56 - equipment_system - INFO - Оператор одобрил запрос типа easy
+2025-04-23 19:02:56 - equipment_system - INFO - Изменение статуса одобрения запроса с False на True
+2025-04-23 19:02:56 - equipment_system - INFO - Утверждение стоимости аренды: 150
+2025-04-23 19:02:56 - equipment_system - INFO - Генерация отчета по аренде rent_1
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - INFO - Генерация отчета по аренде rent_1
+2025-04-23 19:02:56 - equipment_system - DEBUG - Расчет общей стоимости аренды
+2025-04-23 19:02:56 - equipment_system - INFO - Создан клиент: Rasim (ID: 4)
+2025-04-23 19:02:56 - equipment_system - INFO - Создана аренда: 4 для клиента Rasim
+2025-04-23 19:02:56 - equipment_system - INFO - Начало онлайн процесса аренды
+2025-04-23 19:02:56 - equipment_system - DEBUG - Онлайн проверка доступности оборудования
+2025-04-23 19:02:56 - equipment_system - ERROR - Попытка арендовать недоступное оборудование
